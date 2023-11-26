@@ -1,0 +1,26 @@
+.search-cocktail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-cocktail__input {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.search-cocktail__input::placeholder {
+    font-weight: 500;
+}
+
+.search-cocktail__button {
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.search-cocktail__button:hover {
+    background-color: blueviolet;
+    color: white;
+}
