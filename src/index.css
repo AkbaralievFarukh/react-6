@@ -21,6 +21,10 @@ code {
     monospace;
 }
 
+img {
+  width: 100%;
+}
+
 .container {
   max-width: 1140px;
   width: 100%;
@@ -33,4 +37,16 @@ code {
   line-height: 150%; /* 120px */
   letter-spacing: -2px;
   text-align: center;
+  margin: 20px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 15px;
 }

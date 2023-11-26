@@ -1,0 +1,9 @@
+.cocktail__img {
+    border-radius: 20px;
+}
+
+.cocktail__title {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
