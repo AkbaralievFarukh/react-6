@@ -16,8 +16,8 @@ const SearchPage = () => {
         axios(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${name}`)
             .then(({ data }) => setCoctails(data.drinks))
             .catch((error) => {
-                console.error(error)
-                setCoctails([])
+                console.log(error)
+
             })
     }
 

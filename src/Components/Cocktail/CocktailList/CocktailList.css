@@ -1,0 +1,17 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.error__text {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.error__img {
+    max-width: 500px;
+}
